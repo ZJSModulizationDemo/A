@@ -17,7 +17,6 @@
 		07DC5FD524AAEE7000AF3EFE /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DC5FD024AAEE7000AF3EFE /* Target_A.m */; };
 		07DC5FD624AAEE7100AF3EFE /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DC5FD324AAEE7000AF3EFE /* AViewController.m */; };
 		07DC5FDF24AB107700AF3EFE /* CTMediator+A.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DC5FDD24AB107600AF3EFE /* CTMediator+A.m */; };
-		07DC5FE024AB35B900AF3EFE /* A_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607112BA66A40CD5604F26FA /* A_Extension.swift */; };
 		68E56504D78F777FD65DA628 /* Pods_A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A694E80645391A68A292C46 /* Pods_A.framework */; };
 		D02432C69105DDD40B3823CB /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99151C1BE8F1CA87701B5FDE /* DemoViewController.swift */; };
 		D50D9A5F26E00556FC0F2CE2 /* Target_A.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38163653E75D1DAB9F7A29D /* Target_A.swift */; };
@@ -280,7 +279,6 @@
 				07DC5F5C24AAB29300AF3EFE /* main.m in Sources */,
 				07DC5F4E24AAB28D00AF3EFE /* SceneDelegate.m in Sources */,
 				07DC5FD524AAEE7000AF3EFE /* Target_A.m in Sources */,
-				07DC5FE024AB35B900AF3EFE /* A_Extension.swift in Sources */,
 				D50D9A5F26E00556FC0F2CE2 /* Target_A.swift in Sources */,
 				07DC5FD624AAEE7100AF3EFE /* AViewController.m in Sources */,
 				D02432C69105DDD40B3823CB /* DemoViewController.swift in Sources */,
