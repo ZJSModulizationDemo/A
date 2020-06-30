@@ -8,7 +8,7 @@
 
 # version.develop = 1
 # version.test = 0
-# version.gray = 2
+# version.gray = 3
 
 Pod::Spec.new do |s|
 
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "A_Extension"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.swift_version = '5.1'
   s.summary      = "A_Extension."
 
