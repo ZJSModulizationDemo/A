@@ -19,6 +19,7 @@ public extension CTMediator {
         if let viewController = performTarget(ModuleName, action: "demo", params: params, shouldCacheTarget: false) as? UIViewController {
             return viewController
         }
+        
         return nil
     }
 }
