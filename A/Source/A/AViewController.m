@@ -41,7 +41,7 @@
 //    BViewController *viewController = [[BViewController alloc] initWithContentText:@"hello, world!"];
 //    [self.navigationController pushViewController:viewController animated:YES];
     
-    UIViewController *viewController = [[CTMediator sharedInstance] B_viewControllerWithContentText:@"hello, world!"];
+    UIViewController *viewController = [[CTMediator sharedInstance] B_viewControllerWithContentText:@"hello, world!!!!!!"];
      [self.navigationController pushViewController:viewController animated:YES];
 }
 
