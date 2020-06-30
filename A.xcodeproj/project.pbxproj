@@ -14,9 +14,9 @@
 		07DC5F5624AAB29300AF3EFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07DC5F5524AAB29300AF3EFE /* Assets.xcassets */; };
 		07DC5F5924AAB29300AF3EFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07DC5F5724AAB29300AF3EFE /* LaunchScreen.storyboard */; };
 		07DC5F5C24AAB29300AF3EFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DC5F5B24AAB29300AF3EFE /* main.m */; };
-		07DC5FD524AAEE7000AF3EFE /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DC5FD024AAEE7000AF3EFE /* Target_A.m */; };
 		07DC5FD624AAEE7100AF3EFE /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DC5FD324AAEE7000AF3EFE /* AViewController.m */; };
 		07DC5FDF24AB107700AF3EFE /* CTMediator+A.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DC5FDD24AB107600AF3EFE /* CTMediator+A.m */; };
+		07DC5FE324AB40B000AF3EFE /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DC5FE224AB40B000AF3EFE /* Target_A.m */; };
 		68E56504D78F777FD65DA628 /* Pods_A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A694E80645391A68A292C46 /* Pods_A.framework */; };
 		D02432C69105DDD40B3823CB /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99151C1BE8F1CA87701B5FDE /* DemoViewController.swift */; };
 		D50D9A5F26E00556FC0F2CE2 /* Target_A.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38163653E75D1DAB9F7A29D /* Target_A.swift */; };
@@ -35,12 +35,12 @@
 		07DC5F5824AAB29300AF3EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07DC5F5A24AAB29300AF3EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07DC5F5B24AAB29300AF3EFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		07DC5FD024AAEE7000AF3EFE /* Target_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Target_A.m; path = Source/Targets/Target_A.m; sourceTree = "<group>"; };
-		07DC5FD124AAEE7000AF3EFE /* Target_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Target_A.h; path = Source/Targets/Target_A.h; sourceTree = "<group>"; };
 		07DC5FD324AAEE7000AF3EFE /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 		07DC5FD424AAEE7000AF3EFE /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
 		07DC5FDD24AB107600AF3EFE /* CTMediator+A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+A.m"; path = "Extension/CTMediator+A.m"; sourceTree = "<group>"; };
 		07DC5FDE24AB107600AF3EFE /* CTMediator+A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CTMediator+A.h"; path = "Extension/CTMediator+A.h"; sourceTree = "<group>"; };
+		07DC5FE124AB40B000AF3EFE /* Target_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Target_A.h; path = Source/Target/Target_A.h; sourceTree = "<group>"; };
+		07DC5FE224AB40B000AF3EFE /* Target_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Target_A.m; path = Source/Target/Target_A.m; sourceTree = "<group>"; };
 		0A694E80645391A68A292C46 /* Pods_A.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_A.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1649E75D8E789535284B3C8D /* A_Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = A_Extension.podspec; path = ../A_Extension.podspec; sourceTree = "<group>"; };
 		607112BA66A40CD5604F26FA /* A_Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = A_Extension.swift; path = Extension/A_Extension.swift; sourceTree = "<group>"; };
@@ -153,8 +153,8 @@
 		F75E38B927B4A3BDA2E47354 /* Target */ = {
 			isa = PBXGroup;
 			children = (
-				07DC5FD024AAEE7000AF3EFE /* Target_A.m */,
-				07DC5FD124AAEE7000AF3EFE /* Target_A.h */,
+				07DC5FE124AB40B000AF3EFE /* Target_A.h */,
+				07DC5FE224AB40B000AF3EFE /* Target_A.m */,
 				E38163653E75D1DAB9F7A29D /* Target_A.swift */,
 			);
 			name = Target;
@@ -278,7 +278,7 @@
 				07DC5F4B24AAB28D00AF3EFE /* AppDelegate.m in Sources */,
 				07DC5F5C24AAB29300AF3EFE /* main.m in Sources */,
 				07DC5F4E24AAB28D00AF3EFE /* SceneDelegate.m in Sources */,
-				07DC5FD524AAEE7000AF3EFE /* Target_A.m in Sources */,
+				07DC5FE324AB40B000AF3EFE /* Target_A.m in Sources */,
 				D50D9A5F26E00556FC0F2CE2 /* Target_A.swift in Sources */,
 				07DC5FD624AAEE7100AF3EFE /* AViewController.m in Sources */,
 				D02432C69105DDD40B3823CB /* DemoViewController.swift in Sources */,

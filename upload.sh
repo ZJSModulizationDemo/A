@@ -60,9 +60,9 @@ GrayVersionNumber=`tr -cd 0-9 <<<"$GrayVersionString"`
 NewGrayVersionNumber=$GrayVersionNumber
 
 if [ "$Repo" == "ZJSPrivatePods" ]; then
-  NewDevelopVersionNumber=$(($DevelopVersionNumber + 1))
+  NewDevelopVersionNumber=$(($DevelopVersionNumber))
   NewTestVersionNumber=0
-  NewGrayVersionNumber=0
+  NewGrayVersionNumber=$(($GrayVersionNumber + 1))
 fi
 
 if [ "$Repo" == "ZJSPrivatePods_test" ]; then
